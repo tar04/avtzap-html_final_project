@@ -308,6 +308,7 @@ img.input-group-text{
     display: flex;
     column-gap: 30px;
     padding: 0;
+    margin-bottom: 5%;
 }
 .offer__bot-item{
     width: 33.333%;
@@ -348,16 +349,15 @@ img.input-group-text{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     border-radius: 50%;
     background-color: #FFFFFF;
-    position: relative;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
+    bottom: 25px;
 }
 .left{
-    bottom: 120px;
     left: 150px;
 }
 .right{
     left: 1470px;
-    bottom: 160px;
 }
