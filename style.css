@@ -349,15 +349,9 @@ img.input-group-text{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     border-radius: 50%;
     background-color: #FFFFFF;
-    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    bottom: 25px;
+    align-self: center;
 }
-.left{
-    left: 150px;
-}
-.right{
-    left: 1470px;
-}
+
