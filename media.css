@@ -9,8 +9,6 @@
     .nav-pills-else {
         display: block;
     }
-
-
     .header__center-worktime{
         flex-direction: column;
     }
@@ -47,6 +45,66 @@
         height: 65px;
         align-items: flex-start;
     }
+    .carousel__block-left h2{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .undercut{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .carousel__block-price{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .price2{
+        font-size: 18px;
+        line-height: 21px;
+
+    }
+    .price1{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .carousel__block .offer_picture{
+        width: 222px;
+        height: 180px;
+    }
+    .carousel__block{
+        padding: 70px 30px;
+    }
+    .offer__right-action{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .img-text img{
+        width: 70px;
+        height: 65px;
+    }
+    .img-text h2{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .img-text h2 p{
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .silver-price{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .yellow-price{
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .offer__right-price{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .offer__right-item{
+        justify-content: space-between;
+    }
+
 }
 
 
@@ -70,8 +128,6 @@
     .nav-pills-else {
         display: block;
     }
-
-
     .header__center-worktime{
         display: none;
     }
@@ -114,6 +170,84 @@
         display: block;
         border: none;
     }
+    .offer{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .carousel{
+        width: 100%;
+    }
+    .carousel__block-left h2{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .undercut{
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .offer__right{
+        flex-direction: row;
+        column-gap: 10px;
+        width: 100%;
+    }
+    .carousel__block-price{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .price2{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .price1{
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .carousel__block .offer_picture{
+        width: 147px;
+        height: 125px;
+    }
+    .carousel__block{
+        padding: 70px 30px;
+    }
+    .offer__right-action{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .img-text img{
+        width: 58px;
+        height: 54px;
+    }
+    .img-text h2{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .img-text h2 p{
+        font-size: 10px;
+        line-height: 12px;
+        margin-bottom: 0;
+    }
+    .silver-price{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .yellow-price{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .price__wrapper{
+        margin-left: 70px;
+    }
+    .offer__right-item{
+        justify-content: space-between;
+        min-width: 250px;
+        max-height: 155px;
+        position: relative;
+    }
+    .carousel__block-left button{
+        padding: 10px 24px;
+        font-size: 12px;
+        line-height: 14px;
+    }
 
 }
 
@@ -132,5 +266,17 @@
     }
     .phone h2{
         margin-bottom: 0;
+    }
+    .carousel__block-left button{
+        padding: 6px 12px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .carousel__block .offer_picture{
+        width: 131px;
+        height: 111px;
+    }
+    .carousel__block{
+        padding:  50px 30px;
     }
 }

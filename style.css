@@ -176,3 +176,131 @@
 img.input-group-text{
     display: none;
 }
+.offer{
+    padding: 30px 0 79px;
+    display: flex;
+    column-gap: 10px;
+}
+.carousel{
+    width: 70%;
+    background: url("image/offer_bg.png")no-repeat center/cover;
+    border-radius: 20px;
+}
+.carousel__block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel__block-price{
+    display: flex;
+    align-items: flex-end;
+    column-gap: 15px;
+    margin-top: 30px;
+}
+.carousel__block-left h2{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #0A1A2C;
+}
+.undercut{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #717171;
+}
+.price1{
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 43px;
+    color: #005BB9;
+}
+.price2{
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-decoration-line: line-through;
+}
+.carousel__block-left button{
+    background: #005BB9;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 15px 30px;
+}
+.offer__right{
+    min-width: 250px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.offer__right-item{
+    height: 50%;
+    background: #F4F5FA;
+    border-radius: 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.offer__right-price{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.offer__right-action{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F2438;
+}
+.offer__right-item h2{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #0A1A2C;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+.offer__right-item h2 p{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #525252;
+    margin-top: 5px;
+}
+.img-text{
+    display: flex;
+}
+.yellow-price{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFB800;
+}
+.silver-price{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+}
+.buy_button{
+    background: #005BB9;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 6%;
+}
+.price__wrapper{
+    margin-left: 100px;
+    justify-content: space-between;
+}
