@@ -354,4 +354,124 @@ img.input-group-text{
     align-items: center;
     align-self: center;
 }
-
+.selection{
+    display: flex;
+    column-gap: 2%;
+    margin-bottom: 2%;
+}
+.selection__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005BB9;
+}
+.selection-active{
+    color: #FFFFFF;
+    background: #005BB9;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 25px;
+    row-gap: 20px;
+    margin-bottom: 3%;
+}
+.main__item{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+}
+.main__item-picture{
+    margin-bottom: 5%;
+}
+.main__item-rating{
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    margin-bottom: 3%;
+}
+.main__item h2{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #0A1A2C;
+    margin-bottom: 17%;
+}
+.price{
+    display: flex;
+    column-gap: 5px;
+    align-items: baseline;
+    margin-bottom: 8%;
+}
+.price__left{
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+.price__right a{
+    font-size: 13px;
+    line-height: 15px;
+}
+.buttons{
+    display: flex;
+    column-gap: 6%;
+    align-items: center;
+}
+.cart__button{
+    padding: 5.7% 12%;
+    background: #005BB9;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    column-gap: 4px;
+    color: #FFFFFF;
+}
+.like{
+    color: #005BB9;
+}
+.stats{
+    color: #005BB9;
+}
+.review{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B0B0B0;
+}
+.stars{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFB800;
+    display: flex;
+    align-items: center;
+    column-gap: 3px;
+}
+.showmore{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6%;
+}
+.showmore button{
+    background: #FFFFFF;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #005BB9;
+    padding: 1% 2%;
+}
