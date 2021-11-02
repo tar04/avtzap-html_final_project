@@ -218,6 +218,7 @@
         flex-direction: row;
         column-gap: 10px;
         width: 100%;
+        overflow-x: scroll;
     }
     .carousel__block-price{
         flex-direction: column-reverse;
