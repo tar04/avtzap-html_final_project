@@ -486,17 +486,14 @@ img.input-group-text{
     height: 9px;
     background: #F5F5F5;
     width: 100%;
-}
-.header__hr-item{
-    display: flex;
-    padding-left: 20px;
-    column-gap: 170px;
+    position: relative;
+    z-index: -1;
+    top: 9px;
 }
 .news{
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 17px;
     margin-bottom: 8%;
+    column-gap: 5%;
 }
 .news__item-header{
     font-weight: 500;
@@ -516,7 +513,7 @@ img.input-group-text{
     margin-bottom: 5%;
 }
 .news__item{
-    max-width: 271px;
+    width: 271px;
 }
 .news__item a{
     font-size: 16px;
@@ -534,4 +531,10 @@ img.input-group-text{
 }
 .news__item ul{
     padding-left: 0;
+}
+.dots_and_dates{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 106px;
 }
